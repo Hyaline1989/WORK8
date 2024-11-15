@@ -1,0 +1,15 @@
+.root {
+    background-color: #2f1748;
+}
+
+.img {
+    width: 100%;
+}
+
+.form__button {
+    border-radius: 10px;
+}
+
+.form__input {
+    border-radius: 10px;
+}
