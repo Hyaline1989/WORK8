@@ -1,0 +1,86 @@
+:root {
+    --font-family: "Roboto Slab", sans-serif;
+    --second-family: "Intro ", sans-serif;
+    --third-family: "Helvetica", sans-serif;
+}
+
+.body {
+    margin: 10vh 5vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    font-family: var(--second-family);
+    background-color: #5222d0;
+    color: #ffffff;
+    border: 0;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: repeat (4, 1fr);
+    width: 100%;
+}
+.main__h1 {
+    grid-row: 1/2;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.main__p {
+    grid-row: 2/3;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 200%;
+}
+
+.main__button {
+    grid-row: 3/4;
+}
+
+.main__button_buy {
+    font-family: var(--second-family);
+    background-color: #5222d0;
+    color: #ffffff;
+    border: 0;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 4%;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.main__img {
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__links {
+    margin-right: 2%;
+    text-decoration: none;  
+    color: #5222d0;
+    font-family: var(--font-family);
+}
+
+button:hover {
+    background-color: #45a049;
+}

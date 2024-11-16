@@ -1,0 +1,97 @@
+:root {
+    --font-family: "Roboto Slab", sans-serif;
+    --second-family: "Intro", sans-serif;
+    --third-family: "Helvetica", sans-serif;
+}
+
+.body {
+    margin: 10vh 5vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    font-family: var(--second-family);
+    background-color: #5222d0;
+    color: #ffffff;
+    border: 0;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.main__h1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--second-family);
+    font-weight: 400;
+}
+.main__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 70% 30%;
+    padding-bottom: 10vh;
+    gap: 5%;
+    font-family: var(--font-family);
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.subscription {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 2% 0;
+} 
+
+.subscription__form {
+    background-color: #ec615b;
+    width: 27vw;
+}
+.subscription__title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-left: 3%;
+}
+.subscription__input {
+    margin-left: 3%;
+    width: 80%;
+    padding: 2%;
+}
+.subscription__button {
+    font-family: var(--second-family);
+    background-color: #5222d0;
+    color: #ffffff;
+    border: 0;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 2% 0 10% 3%;
+    padding: 2% 4%;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__links {
+    margin-right: 2%;
+    text-decoration: none;  
+    color: #5222d0;
+    font-family: var(--font-family);
+}
+
+button:hover {
+    background-color: #45a049;
+}
